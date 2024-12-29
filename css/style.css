@@ -1,0 +1,27 @@
+#sec-a {
+    position: relative;
+    /* z-index: 1; */
+}
+
+#image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#overlay1 {
+    background: rgba(40, 50, 79, 0.57);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#overlay2 {
+    background: #EC281C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
