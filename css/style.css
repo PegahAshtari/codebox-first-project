@@ -1,27 +1,29 @@
 #sec-a {
-    position: relative;
-    /* z-index: 1; */
+    background-color: #030303;
 }
 
-#image-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+#heading-text {
+    font-size: 15px;
+    color: #FD6219;
+    font-weight: 500;
 }
 
-#overlay1 {
-    background: rgba(40, 50, 79, 0.57);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+#first-heading {
+    color: #ffffff;
+    line-height: 1.3;
+    font-size: 48px;
 }
 
-#overlay2 {
-    background: #EC281C;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
+.card {
+    background-color: #111;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    border: 1px solid #111;
+}
+
+
+.heading-links {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
 }
