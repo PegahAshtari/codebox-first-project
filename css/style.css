@@ -107,3 +107,21 @@
 #services-link:hover {
     color: #FD6219;
 }
+
+#brand-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #030303;
+}
+
+.brand-links {
+    border: 1px solid #CECECE;
+    border-radius: 100px;
+    display: inline-block;
+    transition: all ease 0.5s;
+}
+
+.brand-links:hover {
+    border-color: #FD6219;
+    transform: translate(0px, -6px);
+}
