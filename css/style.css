@@ -321,3 +321,139 @@
     background-color: #ffffff;
 }
 
+#sec-e {
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#bg-image-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#bgi-1 {
+    filter: saturate(0) contrast(110%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#cover1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(40, 50, 79, 0.57);;
+}
+
+#cover2 {
+    background: #EC281C;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#left-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+#appointment-text {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #ffffff;
+    position: relative;
+    margin-left: 42px;
+}
+
+#left-shape {
+    background-color: #ffffff;
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    transform: translateY(-50%) skew(-15deg);
+}
+
+#left-shape::after {
+    background-color: #ffffff;
+    content: "";
+    height: 100%;
+    width: 4px;
+    position: absolute;
+    top: 0;
+    right: -8px;
+}
+
+#contact-text {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#left-red-btn {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 20px 30px;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #EC281C;
+    text-decoration: none;
+}
+
+#left-red-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+    background-color: #191F29;
+}
+
+#video-btn {
+    background-color: transparent;
+    color: #ffffff;
+    height: 56px;
+    width: 56px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    z-index: 2;
+    transition: all 0.6s ease;
+}
+
+#video-btn:hover {
+    background-color: #ffffff;
+    color: #030303;
+    transition: all 0.6s ease;
+}
