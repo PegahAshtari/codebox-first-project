@@ -223,3 +223,101 @@
     line-height: 24px;
     transition: all 0.5s ease;
 }
+
+#sec-d {
+    position: relative;
+    background-color: #1b1525;
+    z-index: 1;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#overlay1 {
+    background-image: url(../images/site-footer-shape-1.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 388px;
+    width: 388px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: #1b1525;
+    opacity: .12;
+    z-index: -1;
+}
+
+#overlay2 {
+    background-image: url(../images/site-footer-shape-2.webp);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 431px;
+    width: 531px;
+    background-color: #1b1525;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    opacity: .12;
+    z-index: -1;
+}
+
+#box-content {
+    border: 1px solid #322d3b;
+}
+
+#left-title-text {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+#icon-AI {
+    color: #2be4ac;
+}
+
+#right-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#right-content-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none !important;
+    background-color: #6653e8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 40px 14px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+}
+
+#right-content-btn::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transition: all 0.4s ease-in-out 0.1s;
+    opacity: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+
+.right-content-btn::after {
+    background-color: #ffffff;
+}
+
