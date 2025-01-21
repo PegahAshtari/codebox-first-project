@@ -457,3 +457,8 @@
     color: #030303;
     transition: all 0.6s ease;
 }
+
+#sec-f {
+    position: relative;
+    z-index: 1;
+}
