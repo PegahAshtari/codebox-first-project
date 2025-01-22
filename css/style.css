@@ -159,6 +159,11 @@
     mix-blend-mode: luminosity;
 }
 
+#top-section {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+}
+
 #top-right-text {
     color: #aea8b9;
     line-height: 30px;
