@@ -510,6 +510,7 @@
 
 #mask-img {
     background-color: #000000;
+    -webkit-mask-image: url(../images/mask-img.png);
     mask-image: url(../images/mask-img.png);
     mask-repeat: no-repeat;
     width: 585px;
@@ -639,6 +640,7 @@
 
 #mask-img-2 {
     background-color: #000000;
+    -webkit-mask-image: url(../images/mask-img-2.png);
     mask-image: url(../images/mask-img-2.png);
     mask-repeat: no-repeat;
     height: 100%;
