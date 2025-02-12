@@ -87,7 +87,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: #FD6219; /* رنگ پس‌زمینه افکت */
+    background: #FD6219;
     transition: left 1s ease;
 }
 
@@ -95,16 +95,16 @@
     left: 100%; /* حرکت از سمت چپ به داخل */
 }
 
-#circle-btn.no-return::before {
+/* #circle-btn.no-return::before {
     left: 100%; /* رنگ از سمت راست بیرون می‌رود و دیگر به حالت اولیه برنمی‌گردد */
-}
+} */
 
 #circle-btn:hover {
-    color: white; /* تغییر رنگ متن هنگام هاور */
-    border-color: #ff6347; /* تغییر رنگ حاشیه هنگام هاور */
+    color: white;
+    border-color: #ff6347;
 }
 
-#services-link:hover {
+#services-link span:hover {
     color: #FD6219;
 }
 
