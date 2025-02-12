@@ -75,37 +75,38 @@
     text-align: center;
     border: 1px solid #ffffff;
     border-radius: 100px;
-    transition: all ease 1s;
+    transition: all 0.5s ease;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 #circle-btn::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
-    left: -100%;
-    width: 100%;
+    right: 0;
+    width: 0;
     height: 100%;
     background: #FD6219;
-    transition: left 1s ease;
+    transition: all ease 0.5s;
+    z-index: -1;
+}
+
+#circle-btn:hover {
+    color: #ffffff;
+    border-color: #FD6219;
 }
 
 #circle-btn:hover::before {
-    left: 100%; /* حرکت از سمت چپ به داخل */
-}
-
-/* #circle-btn.no-return::before {
-    left: 100%; /* رنگ از سمت راست بیرون می‌رود و دیگر به حالت اولیه برنمی‌گردد */
-} */
-
-#circle-btn:hover {
-    color: white;
-    border-color: #ff6347;
+    right: auto;
+	left: 0;
+	width: 100%;
 }
 
 #services-link span:hover {
     color: #FD6219;
+    transition: all ease 0.5s;
 }
 
 #brand-title {
@@ -322,8 +323,9 @@
     z-index: -1;
 }
 
-.right-content-btn::after {
+#right-content-btn::after {
     background-color: #ffffff;
+    color: #6653e8;
 }
 
 #sec-e {
@@ -443,6 +445,10 @@
     transform: scale(0, 1);
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: -1;
+    background-color: #191F29;
+}
+
+#right-red-btn::before {
     background-color: #191F29;
 }
 
