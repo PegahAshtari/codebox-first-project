@@ -448,8 +448,9 @@
     background-color: #191F29;
 }
 
-#right-red-btn::before {
-    background-color: #191F29;
+#right-red-btn:hover::before { 
+    transform-origin: left center;
+    transform: scale(1, 1);
 }
 
 #video-btn {
