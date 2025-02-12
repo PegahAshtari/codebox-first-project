@@ -301,7 +301,6 @@
     font-size: 16px;
     font-weight: 700;
     padding: 14px 40px 14px;
-    -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
     overflow: hidden;
     z-index: 1;
@@ -323,9 +322,14 @@
     z-index: -1;
 }
 
-#right-content-btn::after {
-    background-color: #ffffff;
+#right-content-btn:hover {
     color: #6653e8;
+}
+
+#right-content-btn:hover::after {
+    background-color: #ffffff;
+    opacity: 1;
+    transform: scaleY(1);
 }
 
 #sec-e {
